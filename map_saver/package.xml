@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>map_saver</name>
+  <version>0.0.0</version>
+  <description>ROS2 package for saving 3D point clouds from a SLAM system</description>
+  <maintainer email="seu_email@aqui.com">Seu Nome</maintainer>
+  <license>MIT License</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+</package>
+
